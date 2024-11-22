@@ -1,3 +1,5 @@
 {
-  "image": "docker.io/library/python:3"
+  "build" : {
+    "dockerfile": "Dockerfile",
+    "context": ".."  
 }
